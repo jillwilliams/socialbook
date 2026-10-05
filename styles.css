@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    font-family: "Iceland";
+}
+
+/* navbar css */
+navbar {
+    width: 100%;
+    background-color: rgb(15,88,244);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 20px 20px;
+}
+
+/* the text: Socialbook */
+.container h1 {
+    font-size: 40px;
+}
+
+/* turning the S in Socialbook white*/
+.container h1 span {
+    color: white;
+}
+
+/* the icons in navbar */
+.container navbar i {
+    width: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+/* the search bar */
+.search-bar {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border:  none;
+    margin-left: 60px;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+/* the thumbnail img at the end of the navbar */
+.user {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* --------------end of navbar section--------------- */
+.three_divs {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    font-family: inherit;
+
+}
+
+/* ---------------div one-------------------- */
+/* left sidebar */
+.left_sidebar {
+    /* border: 1px solid red; */
+    font-family: inherit;
+    background-color: #dcdcdc;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    line-height: 2;
+    /* margin: auto; */
+}   
+
+/* the icons in the left sidebar */
+.left_sidebar i {
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: rgb(15,88,244);
+}
+
+/* the text next to the icons */
+.left_sidebar i span {
+    font-size: 10px;
+    margin-left: 10px;
+    color: #454545;
+}
+
+/* text: see more */
+.left_sidebar h4 .see-more {
+    color: rgb(15,88,244);
+    font-size: 15px;
+    margin-bottom: -20px;
+}
+
+/* line break after "see more" */
+.text-container {
+    border-bottom: 1px solid #454545;
+    width: 85%;
+    margin-left: 15px;
+}
+
+/* text: your shortcuts */
+.left_sidebar h4 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #454545;
+}
+
+/* getting the text to the right of the thumbnail images */
+.left_sidebar .short-one {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left_sidebar .short-two {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left_sidebar .short-three {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left_sidebar .short-four {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* the images  */
+.left_sidebar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    background-position: center;
+    background-position: cover;
+}
+
+/* the text for web developer */
+.left_sidebar .web {
+    color: #454545;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+/* the text for web design */
+.left_sidebar .design {
+    color: #454545;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+/* the text for full stack development */
+.left_sidebar .full-stack {
+    color: #454545;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+/* the text for website experts */
+.left_sidebar .experts {
+    color: #454545;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+/* =============end of left sidebar==================== */
+/* middle sidebar */
+.middle_sidebar {
+    /* border: 1px solid green; */
+    font-family: inherit;
+    background-color: #dcdcdc;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* container for images */
+.your-story {
+    display: flex;
+    width: 90%;
+} 
+
+/* the people images at top of middle column */
+.your-story img {
+    width: 20%;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+/* first post */
+.middle_sidebar .card {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* the post thumbnail */
+.middle_sidebar .post-thumbnail {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* div for first post-pic and name */
+.middle_sidebar .card .thumbnail-div {
+    display: flex;
+}
+
+/* text: john nicholson and public */
+.card .thumbnail-div .john {
+    margin-top: 14px;
+    font-size: 20px;
+    color: #454545;
+}
+
+/* text: whats on your mind... */
+.card .what {
+    margin: 20px 15px 30px 15px;
+    color: #454545;
+}
+
+/* line under whats on your mind */
+.card .text-container-two {
+    border-bottom: 1px solid #454545;
+    width: 85%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* the stuff under the divider */
+.middle_sidebar .post-thumbnails {
+    font-size: 8px;
+    margin: 10px 5px;
+}
+
+/* the video icon */
+.middle_sidebar .post-thumbnails .fa-video {
+    color: red;
+    margin: 5px 5px;
+}
+
+/* the text to the right of the icons */
+.middle_sidebar .post-thumbnails .icon-text {
+    color: #454545;
+    margin-left: 5px;
+}
+
+/* the camera icon */
+.middle_sidebar .post-thumbnails .fa-camera {
+    color: green;
+}
+
+/* the smiley face icon */
+.middle_sidebar .post-thumbnails .fa-face-laugh {
+    color: darkgoldenrod;
+    margin-left: 5px;
+}
+
+/* the second post in the middle div */
+.card {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* text: lorem ipsum */
+.post-text p {
+    margin: 10px;
+} 
+
+/* img at bottom of second post */
+.post-text .post-image {
+    width: 80%;
+    margin: 20px 10%;
+    border-radius: 5px;
+}
+
+/* ---------------end of middle sidebar--------------- */
+
+/* right sidebar */
+.right_sidebar {
+    /* border: 1px solid blue; */
+    font-family: inherit;
+    background-color: #dcdcdc;
+}
+
+.container-three {
+    width: 90%;
+    /* border: 1px solid purple; */
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+/* the events and see all div */
+.right_sidebar .right-top {
+    display: flex;
+    color: #454545;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* the text: see all */
+.right_sidebar .right-top h6 {
+    color: rgb(15,88,244);
+}
+
+/* the calender container */
+.container-three .calendar {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* the calendar css */
+.container-three .container-four {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    margin: 5px 10px;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+/* the bottom portion of the calender */
+.container-three .container-four h6 {
+    width: 40px;
+    height: 20px;
+    color: white;
+    background-color: rgb(15,88,244);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* the text next to calender "social media" */
+.calendar .title h6 {
+    color: #454545;
+    font-size: 20px;
+}
+
+/* the location icon */
+.calendar .title .fa-location-dot {
+    font-size: 10px;
+}
+
+/* text: wilson tech park */
+.calendar .title .fa-location-dot span {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+/* text: more info */
+.calendar .title .more-info {
+    font-size: 10px;
+    color: rgb(15,88,244);
+}
+
+/* text: advertisement */
+.container-three .conference {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+/* the meeting thumbnails */
+.container-three .people {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/* the imagesthemselves */
+.container-three .people .people-thumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/* the peoples names div */
+.container-three .people .people-names {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* the text: people's names */
+.container-three .people .people-names h6 {
+    margin-top: 45px;
+    margin-left: 10px;
+}
+

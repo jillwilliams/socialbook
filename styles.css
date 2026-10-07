@@ -44,16 +44,16 @@ navbar {
     padding: 10px 20px;
     border-radius: 50px;
     border:  none;
-    margin-left: 30%;
+    margin-left: 23%;
     width: 300px;
 }
 
 /* the thumbnail img at the end of the navbar */
 .user {
-    width: 50px;
-    height: 40px;
+    width: 60px;
+    height: 50px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 7%;
     background-size: cover;
 }
 
@@ -78,7 +78,7 @@ navbar {
 
 /* the icons in the left sidebar */
 .left_sidebar i {
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 30px;
     margin-left: 10px;
     color: rgb(15,88,244);
@@ -86,7 +86,7 @@ navbar {
 
 /* the text next to the icons */
 .left_sidebar i span {
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 10px;
     color: #454545;
 }
@@ -94,7 +94,7 @@ navbar {
 /* text: see more */
 .left_sidebar h4 .see-more {
     color: rgb(15,88,244);
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: -20px;
 }
 
@@ -106,8 +106,8 @@ navbar {
 }
 
 /* text: your shortcuts */
-.left_sidebar h4 {
-    font-size: 15px;
+.left_sidebar h3{
+    font-size: 25px;
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -147,7 +147,7 @@ navbar {
 /* the text for web developer */
 .left_sidebar .web {
     color: #454545;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     margin-top: 4px;
@@ -156,7 +156,7 @@ navbar {
 /* the text for web design */
 .left_sidebar .design {
     color: #454545;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     margin-top: 4px;
@@ -165,7 +165,7 @@ navbar {
 /* the text for full stack development */
 .left_sidebar .full-stack {
     color: #454545;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     margin-top: 4px;
@@ -174,7 +174,7 @@ navbar {
 /* the text for website experts */
 .left_sidebar .experts {
     color: #454545;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     margin-top: 4px;
@@ -186,7 +186,6 @@ navbar {
     /* border: 1px solid green; */
     font-family: inherit;
     background-color: #dcdcdc;
-    /* background-color: whitesmoke; */
     display: flex;
     flex-direction: column;
 }
@@ -422,6 +421,7 @@ navbar {
 .container-three .people .people-names h6 {
     margin-top: 45px;
     margin-left: 10px;
+    font-size: 20px;
 }
 
 
